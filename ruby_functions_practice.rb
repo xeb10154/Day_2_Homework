@@ -55,7 +55,7 @@ def length(length_cube)
 end
 
 def volume_radius(radius)
-  4 * 314 / 3 * (radius ** 3)/100
+  (4 * 3.14) / 3 * (radius ** 3)
 end
 
 def fahrenheit(num)
